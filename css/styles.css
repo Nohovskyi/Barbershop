@@ -427,6 +427,73 @@ ul {
   color: var(--main-text-color);
 }
 
-.footer-link:hover, .footer-link:focus {
+.footer-link:hover,
+.footer-link:focus {
   color: var(--accent-color);
+}
+
+.contacts {
+  padding-top: 130px;
+  padding-bottom: 130px;
+  background-color: #303030;
+}
+.contacts-title {
+  margin-bottom: 40px;
+
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: var(--header-text-color);
+}
+.contacts-address {
+}
+.contacts-address-list {
+}
+
+.contacts-address-item {
+}
+.address-link {
+  display: block;
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.contacts-address-item-pics {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.address-link:hover,
+.address-link:focus,
+.contacts-address-item-pics:hover,
+.contacts-address-item-pics:focus {
+  color: var(--accent-color);
+}
+
+.contacts-hours-title {
+  margin-top: 50px;
+  margin-bottom: 20px;
+
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--header-text-color);
+}
+
+.contacts-hours {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
 }
