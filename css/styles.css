@@ -69,7 +69,12 @@ ul {
 /* ____________HEADER____________ */
 
 .header {
-  background-color: #7c7676;
+  /* background-color: #7c7676; */
+  margin-bottom: 32px;
+  margin-top: 32px;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
 }
 
 .header-container {
@@ -107,6 +112,7 @@ ul {
 .header-contacts {
   display: flex;
   margin-left: auto;
+  margin-right: 20px;
   align-items: center;
 }
 
@@ -124,12 +130,11 @@ ul {
 /* _______MAIN__________ */
 
 .hero {
-  padding-top: 272px;
-  padding-bottom: 208px;
 }
 
 .hero-container {
   display: flex;
+  position: relative;
 }
 
 .hero-list {
@@ -147,7 +152,17 @@ ul {
 }
 
 .hero-text {
-  background: #303030;
+  padding-top: 272px;
+  padding-bottom: 208px;
+  background-color: #7c7676;
+  background-image: linear-gradient(
+      rgba(25, 28, 38, 0.2),
+      rgba(25, 28, 38, 0.2)
+    ),
+    url(../images/hero-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   flex-grow: 1;
 }
 
@@ -181,8 +196,8 @@ ul {
 }
 
 .about {
-  padding-top: 130px;
-  padding-bottom: 130px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: var(--main-bg-color);
 }
 
